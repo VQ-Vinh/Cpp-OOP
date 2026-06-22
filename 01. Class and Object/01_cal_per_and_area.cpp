@@ -38,9 +38,9 @@ public:
         return (width + length) * 2;
     }
 
-    double display() {
+    void display() {
         cout << "Area: " << getArea() << endl;
-        cout << "Permeter " << getPerimeter() << endl;
+        cout << "Perimeter: " << getPerimeter() << endl;
     }
 }; 
 
